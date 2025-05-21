@@ -1,3 +1,3 @@
-# DIGT1302
+# York Digital Technologies Program
 
-Files for the course DIGT1302 for York, Digital Technologies
+Files for the Digital Technologies program @ York
