@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Registration</title>
+    <link href="style.css" rel="stylesheet" />
+    <!-- Uncomment below to enable QUnit tests -->
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/qunit/qunit-2.19.4.css"
+    />
+    <script src="register.js" defer></script>
+  </head>
+
+  <body>
+    <form>
+      <h1>User Registration</h1>
+      <div>
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <label for="passwordConfirm">Confirm Password</label>
+        <input type="password" id="passwordConfirm" name="passwordConfirm" />
+      </div>
+      <div id="formErrors"></div>
+      <div>
+        <input type="submit" id="submit" value="Register" />
+      </div>
+    </form>
+    <!-- Uncomment the lines below to run QUnit tests -->
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://code.jquery.com/qunit/qunit-2.19.4.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
