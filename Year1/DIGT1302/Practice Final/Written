@@ -1,0 +1,567 @@
+1) CSS rules may be placed within _____ tags of an HTML file.
+a. <style>
+b. <body>
+c. <meta>
+d. <title>
+ 
+Blank 1 Question 1
+
+2) In the following CSS rule, what is the element to be styled?
+mark { background-color: yellow; }
+a. mark
+b. background
+c. color
+d. yellow
+ 
+Blank 2 Question 1
+
+
+3) What is missing to complete the CSS declaration block?
+selector {
+   _____: _____;
+}
+a. value: property
+b. property: value
+c. declaration: property
+d. property: declaration
+ 
+Blank 3 Question 1
+
+
+4) Which CSS declaration is an example of inline styling?
+a. {text-align: center;} Hello World
+b. <p text-align="center">Hello World</p>
+c. <p {text-align: center;} Hello World</p>
+d. <p style="text-align: center;">Hello World</p>
+ 
+Blank 4 Question 1
+
+
+5) The#bigTextselector matches which element?
+a. <p id="#bigText">Important text</p>
+b. <p class="bigText">Important text</p>
+c. <p id="bigText">Important text</p>
+d. <p selector="bigText">Important text</p>
+ 
+Blank 5 Question 1
+
+
+6) The following code segment is an example of _____ selector.
+p span {
+   background-color: blue;
+}
+a. descendant
+b. pseudo-class
+c. ID
+d. class
+ 
+Blank 6 Question 1
+
+
+7) The universal selector is specified with _____.
+a. #
+b. .
+c. *
+d. ()
+ 
+Blank 7 Question 1
+
+8) Which pseudo element selector changes the background color of text highlighted by the user?
+p_____ {
+   background-color: grey;
+}
+a. ::after
+b. ::first-line
+c. ::selection
+d. ::before
+ 
+Blank 8 Question 1
+
+9) #FFFFFFis the hexadecimal number for which color?
+a. Black
+b. White
+c. Red
+d. Blue
+ 
+Blank 9 Question 1
+
+10) Which font shorthand is correct?
+bold
+18px
+Times New Roman
+<p>Use the font shorthand on this paragraph</p>
+a. p {
+   font: bold 18px "Times New Roman";
+}
+   font: bold 18px "Times New Roman";
+}
+b. p {
+   font-properties: bold 18px "Times New Roman";
+}
+   font-properties: bold 18px "Times New Roman";
+}
+c. p {
+   font-shorthand: bold 18px Times New Roman;
+}
+   font-shorthand: bold 18px Times New Roman;
+}
+d. p {
+   shorthand: bold 18px "Times New Roman";
+}
+   shorthand: bold 18px "Times New Roman";
+}
+ 
+Blank 10 Question 1
+
+11) Which property:value capitalizes the paragraph?
+p {
+   _____: _____;
+}
+a. text: uppercase;
+b. text-transform: capitalize;
+c. text-transform: uppercase;
+d. text: capitalize;
+ 
+Blank 11 Question 1
+
+12) _____ creates space inside the border, while _____ creates space outside the border.
+a. Content, padding
+b. Margin, padding
+c. Padding, margin
+d. Content, margin
+
+13) How does CSS styling affect the span elements?
+<style>
+   span {
+      width: 25px;
+      height: 35px;
+   }
+</style>
+<body>
+   <div>
+      How does <span>width</span> and
+      <span>height</span> affect the span?
+   </div>
+</body>
+a. Span elements become 25px wide and 35px tall
+b. Span elements remain the same because they are inline elements
+c. One element becomes 25px wide, one becomes 35px tall
+d. Span elements and div element become 25px wide and 35px tall
+ 
+Blank 1 Question 2
+
+14) With flexbox, elements are laid out in a container and behave predictably when _____.
+a. the container uses floating elements
+b. the container is viewed on different screen sizes
+c. the elements are rearranged within the container
+d. the elements are moved to a different container
+ 
+Blank 2 Question 2
+
+15) What CSS defines a flex container?
+a. flex-container: 1;
+b. flex: 0 1 auto;
+c. display: flex;
+d. flex-basis: auto;
+ 
+Blank 3 Question 2
+
+16) How many grid items are in this grid layout?
+dy {
+   display: grid;
+   grid-template-areas:
+      "head head"
+      "nav article"
+      "foot aside";
+}
+a. 4
+b. 3
+c. 5
+d. 6
+ 
+Blank 4 Question 2
+
+17) What type of positioning does this element have?
+.element {
+   top: 50px;
+   left: 20px;
+}
+a. Relative
+b. Absolute
+c. Fixed
+d. Static
+
+Blank 5 Question 2
+ 
+18) Which layout is used in this illustration?
+
+a. text-shadow: 10px -10px 0 blue;
+b. text-shadow: -10px -10px 0 blue;
+c. text-shadow: -10px 10px 0 blue;
+d. text-shadow: 10px 10px 0 blue;
+ 
+Blank 6 Question 2
+
+19) Which CSS selector is used to style a web form's drop-down menu?
+a. input[select]
+b. input:select
+c. select
+d. input[type=select]
+ 
+ 
+Blank 7 Question 2
+
+20) Which type of web design adjusts itself based on browser width?
+a. Dynamic
+b. Mobile
+c. Responsive
+d. Separate
+ 
+ 
+Blank 8 Question 2
+
+21) Which media query is used to supply styles for previewing a document before printing?
+a. @media all
+b. @media print
+c. @media screen
+d. @media speech
+ 
+ 
+Blank 9 Question 2
+
+22) What is the breakpoint in the media query@media screen and (max-width: 350px)?
+a. 350px
+b. 0px
+c. 175px
+d. 300px
+ 
+ 
+Blank 10 Question 2
+
+23) Which image is requested by a 2x device with viewport width = 500px?
+<img src="kitten100.jpg"
+   sizes="(min-width: 150px) 25vw, (min-width: 400px) 50vw"
+   srcset="kitten200.jpg 200w,
+      kitten300.jpg 300w,
+      kitten400.jpg 400w,
+      kitten500.jpg 500w">
+a. kitten100.jpg
+b. kitten200.jpg
+c. kitten300.jpg
+d. kitten500.jpg
+ 
+ 
+Blank 11 Question 2
+
+24) Which variable declaration format is correct?
+a. favBand let = "Linkin Park";
+b. let favBand = "Linkin Park";
+c. let favBand: "Linkin Park";
+d. favBand let: "Linkin Park";
+
+25) x = 4 ** 4is the same as _____.
+a. x = 44
+b. x = 4 * 4
+c. x = 4 + 4 + 4 + 4
+d. x = 4 * 4 * 4 * 4
+ 
+Blank 1 Question 3
+ 
+26) In JavaScript,5 + "5"evaluates to a _____.
+a. string
+b. number
+c. error
+d. object
+ 
+Blank 2 Question 3
+ 
+27) parseFloat()is used with _____ numbers.
+a. integer
+b. whole
+c. decimal
+d. exponential
+ 
+ 
+Blank 3 Question 3
+
+28) Which message is output to the console?
+let size = 7;
+if (size >= 0 && size <= 2) {
+   console.log(size + " is a small.");
+}
+else if (size > 2 && size <= 4) {
+   console.log(size + " is a medium.");
+}
+else if (size > 4 && size <= 6) {
+   console.log(size + " is a large.");
+}
+else {
+   console.log(size + " is an extra large.");
+}
+a. 7 is a large.
+b. 7 is a small.
+c. 7 is a medium.
+d. 7 is an extra large.
+ 
+ 
+Blank 4 Question 3
+
+29) An example of a falsy value is _____.
+a. if ("cats")
+b. if ("")
+c. if (5)
+d. if (" ")
+ 
+Blank 5 Question 3
+ 
+30) Using the code snippet below, which numbers will output to the console?
+for (i = 10; i >= 0; i-= 2) {
+   console.log(i);
+}
+a. 8, 6, 4, 2, 0
+b. 10, 8, 6, 4, 2
+c. 10, 8, 6, 4, 2, 0
+d. 8, 6, 4, 2
+ 
+Blank 6 Question 3
+
+ 
+31) What is the correct format for calling the function and using 1 and 2 as arguments?
+function multiplyNums(a, b) {
+   return a * b;
+}
+a. multiplyNums(1);multiplyNums(2);
+b. function multiplyNums(1, 2);
+c. call multiplyNums(1, 2);
+d. multiplyNums(1, 2);
+ 
+Blank 7 Question 3
+
+ 
+32) The variable findCost has _____.
+function musicTix(people, price) {
+   var findCost = people * price;
+   return findCost;
+}
+a. a reference error
+b. global scope
+c. block scope
+d. local scope
+ 
+ 
+Blank 8 Question 3
+
+33) The variable magic is a _____.
+function findPower(strength, potion) {
+   magic = strength + potion;
+   return magic;
+}
+findPower(50, 75);
+console.log(magic);
+a. global variable
+b. local variable
+c. global object
+d. local object
+ 
+ 
+Blank 9 Question 3
+
+34) Which array is correctly structured?
+a. let countries: ["England", "Brazil", "Cuba"];
+b. countries = [England, Brazil, Cuba];
+c. let countries = ["England", "Brazil", "Cuba"];
+d. countries ["England, Brazil, Cuba"];
+ 
+ 
+Blank 10 Question 3
+
+35) What does the following code snippet output to the console?
+let names = ["Mike", "Belinda", "Jonny", "Sophie"];
+for (i = 0; i < names.length; i++) {
+   console.log(names[i]);
+}
+a. "Mike",
+"Belinda",
+"Jonny",
+"Sophie"
+b. 0Mike
+1Belinda
+2Jonny
+3Sophie
+c. Mike
+Belinda
+Jonny
+Sophie
+d. ["Mike",
+"Belinda",
+"Jonny",
+"Sophie"]
+ 
+Blank 11 Question 3
+
+36) Which statement changes the puppy object's name from Daisy to Darth?
+let puppy = {
+   name: "Daisy",
+   breed: "husky",
+   color: "black"
+};
+a. puppy = "Darth";
+b. name = "Darth";
+c. puppy name = "Darth";
+d. puppy.name = "Darth";
+
+37) What is output to the console?
+function changeThings(someMovie) {
+   someMovie.title = "Race";
+   someMovie = {
+      title: "42",
+      rating: "PG-13"
+   };
+}
+
+let movie = {
+   title: "Greater",
+   rating: "PG"
+};
+changeThings(movie);
+console.log(movie.title);
+a. Greater
+b. Race
+c. 42
+d. null
+ 
+ 
+Blank 1 Question 4
+
+38) What is output by the following code?
+let message = "I choose you!";
+console.log(message.charAt(6));
+a. e
+b. o
+c. s
+d. e you!
+ 
+ 
+Blank 2 Question 4
+
+39) Which Date method changes the time from 12 noon to 4 pm?
+let changeTime = new Date(2020, 5, 2, 12);
+a. changeTime = new Hours(4);
+b. changeTime.setHours(4);
+c. changeTime.setHours(16);
+d. changeTime = new Hours(16);
+ 
+ 
+Blank 3 Question 4
+
+40) How many DOM nodes are created from the paragraph?
+<p>Feed the dog.</p>
+a. None
+b. One for the p element
+c. One for the p element and one for the paragraph text
+d. One for the p element, one for the paragraph text, and one for the whitespace within the paragraph text
+ 
+ 
+Blank 4 Question 4
+
+41) In the following example, how is the head element accessed from a DOM?
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <title>DOM example</title>
+   <body>
+      <p>DOM example.</p>
+   </body>
+</html>
+a. document.documentElement.children[1]
+b. document.documentElement.children[0]
+c. document.documentElement.children[2]
+d. document.documentElement.children[3]
+ 
+ 
+Blank 5 Question 4
+
+42) What document object method should be used to create a text string for inserting into a paragraph?
+a. createTextNode()
+b. innerHTML()
+c. appendNode()
+d. createElement()
+ 
+ 
+Blank 6 Question 4
+
+43) An event that occurs when someone enters their name in an input field is a(n) _____ event.
+a. click
+b. load
+c. input
+d. submit
+ 
+ 
+Blank 7 Question 4
+
+44) What function call cancels the interval?let timerId = setInterval(repeatMe, 1000);
+a. clearInterval(repeatMe);
+b. clearInterval(timerId);
+c. stopInterval(timerId);
+d. setTimeout(timerId);
+ 
+ 
+Blank 8 Question 4
+
+45) Which strings match the regex?
+let words = ["dapper", "paper", "cat", "flack"];
+let re = /pa|ac/;
+a. dapper, paper
+b. paper, flack
+c. flack, cat
+d. dapper, flack
+ 
+ 
+Blank 9 Question 4
+
+46) Given the following code,re.test()returns true for which string?
+let odWords = ["Body", "mood", "FOOD", "bode"];
+let re = /od$/g;
+odWords.forEach(function (word) {
+   if (re.test(word)) {
+      console.log(word);
+   }
+});
+a. mood
+b. Body
+c. FOOD
+d. bode
+ 
+ 
+Blank 10 Question 4
+
+47) What attribute of an input element can be validated when text is entered on a webpage?
+a. data
+b. text
+c. innerHtml
+d. value
+ 
+ 
+Blank 11 Question 4
+
+48) The CSS rule input:invalid _____.
+a. requires external JavaScript to validate
+b. does not require JavaScript to validate
+c. requires server-side validation
+d. requires embedded JavaScript to validate
+ 
+ 
+Blank 12 Question 4
+
+49) Given the following code,re.test()returns true for which string?
+let odWords = ["Body", "mood", "FOOD", "bode"];
+let re = /od$/g;
+odWords.forEach(function (word) {
+   if (re.test(word)) {
+      console.log(word);
+   }
+});
+a. mood
+b. Body
+c. FOOD
+d. bode
